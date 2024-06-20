@@ -14,13 +14,9 @@ Clone Repositório
 ```sh
 git clone https://github.com/abraao69/Setup-Docker-Laravel-10-Portf-lio-Skeleton
 ```
-```sh
-
-```
-
 Suba os containers do projeto
 ```sh
-docker-compose up -d
+docker-compose up --build
 ```
 
 
