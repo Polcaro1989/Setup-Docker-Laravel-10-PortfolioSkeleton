@@ -36,9 +36,9 @@ Instale as dependências do projeto
 composer install
 ```
 
-Instale as dependências do projeto
+Acessar  o projeto no navegador
 ```sh
-Acesse no navegador:localhost:8980
+localhost:8980
 ```
 
 Gere a key do projeto Laravel
