@@ -52,3 +52,5 @@ touch database/database.sqlite
 
 Rodar as migrations
 ```sh
+php artisan serve
+```
