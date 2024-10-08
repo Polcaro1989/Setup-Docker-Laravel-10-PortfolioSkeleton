@@ -49,7 +49,7 @@ OPCIONAL: Gere o banco SQLite (caso não use o banco MySQL):
 touch database/database.sqlite
 ```
 
-Rodar as migrations
+Rodar as migrations:
 ```sh
 php artisan serve
 ```
