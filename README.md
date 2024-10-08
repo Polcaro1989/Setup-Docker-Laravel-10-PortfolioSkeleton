@@ -6,45 +6,45 @@
 
 <br>
 
-#Setup Docker website portfólio com Laravel-10 utilizando Blade
-### Passo a passo
-Clone Repositório
+#Setup Docker website portfólio com Laravel-10 utilizando Blade:
+### Passo a passo:
+Clone Repositório:
 ```sh
 git clone https://github.com/abraao69/Setup-Docker-Laravel-10-Portf-lio-Skeleton
 ```
-Suba os containers do projeto
+Suba os containers do projeto:
 ```sh
 docker-compose up --build
 ```
 
 
-Crie o Arquivo .env
+Crie o Arquivo .env:
 ```sh
 cp .env.example .env
 ```
 
-Acesse o container app
+Acesse o container app:
 ```sh
 docker-compose exec app bash
 ```
 
 
-Instale as dependências do projeto
+Instale as dependências do projeto:
 ```sh
 composer install
 ```
 
-Acessar  o projeto no navegador
+Acessar  o projeto no navegador:
 ```sh
 localhost:8980
 ```
 
-Gere a key do projeto Laravel
+Gere a key do projeto Laravel:
 ```sh
 php artisan key:generate
 ```
 
-OPCIONAL: Gere o banco SQLite (caso não use o banco MySQL)
+OPCIONAL: Gere o banco SQLite (caso não use o banco MySQL):
 ```sh
 touch database/database.sqlite
 ```
