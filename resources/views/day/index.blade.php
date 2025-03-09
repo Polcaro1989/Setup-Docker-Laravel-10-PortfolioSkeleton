@@ -4,7 +4,9 @@
     <section id="hero" class="d-flex align-items-center">
         <div class="container position-relative" data-aos="fade-up" data-aos-delay="500">
             <h1>Abraão Polcaro</h1>
-            <h2>Desenvolvimento Full Stack | PostgreSQL | Scrum | API REST | Linux | Programação Orientada a Objetos (POO) | ReactJS | JavaScript | PHP | Laravel | HTML | GitHub | Docker | Jira | jQuery | Node.js | Teste Unitário PHP.</h2>
+                @foreach($skills as $skill)
+                    <h2>{{ $skill->skills }}</h2>
+                @endforeach
             <a href="#about" class="btn-get-started scrollto">Iniciar</a>
         </div>
     </section><!-- End Hero -->

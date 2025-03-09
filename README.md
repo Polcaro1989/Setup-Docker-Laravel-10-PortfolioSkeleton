@@ -37,6 +37,7 @@ composer install
 Acessar  o projeto no navegador:
 ```sh
 localhost:8980
+ou php artisan serve --host=0.0.0.0 --port=8980
 ```
 
 Gere a key do projeto Laravel:
@@ -51,5 +52,5 @@ touch database/database.sqlite
 
 Rodar as migrations:
 ```sh
-php artisan serve
+php artisan migration
 ```

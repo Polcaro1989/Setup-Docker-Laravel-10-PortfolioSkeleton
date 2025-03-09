@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SkillController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,8 @@ Route::get('/', function () {
 Route::get('/portifolio-details', function () {
     return view('day.portifolio-detail');
 });
+
+
+Route::get('/', [SkillController::class, 'index']); // Página inicial, com habilidades
+
+Route::get('/skills', [SkillController::class, 'index']); // Esta é a rota que você está tentando acessar
